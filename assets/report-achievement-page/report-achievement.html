@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>รายงานแสดงผลสัมฤทธิ์ของโครงการ</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div id="navbar-placeholder"></div>
+
+    <h1 class="head-title mt-4 text-center">รายงานแสดงผลสัมฤทธิ์ของโครงการ</h1>
+    <div class="container-fluid py-4">
+
+        <!-- แผนภูมิแสดงสถานะของโครงการ -->
+        <h2 class="title-section my-2">แผนภูมิแสดงสถานะของโครงการ</h2>
+        <section>
+            <div class="row">
+                <!-- โครงการทั้งหมด -->
+                <div class="col-12 col-md-4 col-lg-2 mb-4">
+                    <div class="card shadow-sm mb-3" style="background-color: #26151B;">
+                        <div class="card-body p-3">
+                            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                <div class="text-white order-1 order-md-2">
+                                    <img src="../images/file-pen-solid.svg" alt="file-pen-solid Icon"
+                                        class="card-type2-md-2-icon mb-2 mt-2">
+                                </div>
+                                <div class="text-white order-2 order-md-1">
+                                    <div class="card-type2-md-2-title font-title">โครงการทั้งหมด</div>
+                                    <div class="card-type2-md-2-value font-value">100</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- เกินกำหนดการดำเนินการ -->
+                <div class="col-12 col-md-4 col-lg-2 mb-4">
+                    <div class="card shadow-sm mb-3" style="background-color: #581123;">
+                        <div class="card-body p-3">
+                            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                <div class="text-white order-1 order-md-2">
+                                    <img src="../images/handshake-solid.svg" alt="handshake Icon"
+                                        class="card-type2-md-2-icon mb-2 mt-2">
+                                </div>
+                                <div class="text-white order-2 order-md-1">
+                                    <div class="card-type2-md-2-title font-title">เกินกำหนดการดำเนินการ</div>
+                                    <div class="card-type2-md-2-value font-value">20</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- อยู่ระหว่างดำเนินการ -->
+                <div class="col-12 col-md-4 col-lg-2 mb-4">
+                    <div class="card shadow-sm mb-3" style="background-color: #46547C;">
+                        <div class="card-body p-3">
+                            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                <div class="text-white order-1 order-md-2">
+                                    <img src="../images/window-restore-solid.svg" alt="file Icon"
+                                        class="card-type2-md-2-icon mb-2 mt-2">
+                                </div>
+                                <div class="text-white order-2 order-md-1">
+                                    <div class="card-type2-md-2-title font-title">อยู่ระหว่างดำเนินการ</div>
+                                    <div class="card-type2-md-2-value font-value">15</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- อยู่ระหว่างวัดผล -->
+                <div class="col-12 col-md-4 col-lg-2 mb-4">
+                    <div class="card shadow-sm mb-3" style="background-color: #7C696D;">
+                        <div class="card-body p-3">
+                            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                <div class="text-white order-1 order-md-2">
+                                    <img src="../images/chart-simple-solid.svg" alt="chart Icon"
+                                        class="card-type2-md-2-icon mb-2 mt-2">
+                                </div>
+                                <div class="text-white order-2 order-md-1">
+                                    <div class="card-type2-md-2-title font-title">อยู่ระหว่างวัดผล</div>
+                                    <div class="card-type2-md-2-value font-value">30</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ดำเนินการเสร็จแล้ว -->
+                <div class="col-12 col-md-4 col-lg-2 mb-4">
+                    <div class="card shadow-sm mb-3" style="background-color: #325948;">
+                        <div class="card-body p-3">
+                            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                                <div class="text-white order-1 order-md-2">
+                                    <img src="../images/check-solid.svg" alt="check Icon"
+                                        class="card-type2-md-2-icon mb-2 mt-2">
+                                </div>
+                                <div class="text-white order-2 order-md-1">
+                                    <div class="card-type2-md-2-title font-title">ดำเนินการเสร็จแล้ว</div>
+                                    <div class="card-type2-md-2-value font-value">15</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ไม่ผ่านเกณฑ์วัดผล -->
+                <div class="col-12 col-md-4 col-lg-2 mb-4">
+                <div class="card shadow-sm mb-3" style="background-color: #888C8B;">
+                    <div class="card-body p-3">
+                        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+                            <div class="text-white order-1 order-md-2">
+                                <img src="../images/xmark-solid.svg" alt="times Icon"
+                                    class="card-type2-md-2-icon mb-2 mt-2">
+                            </div>
+                            <div class="text-white order-2 order-md-1">
+                                <div class="card-type2-md-2-title font-title">ไม่ผ่านเกณฑ์วัดผล</div>
+                                <div class="card-type2-md-2-value font-value">20</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- แผนภูมิแสดงค่าใช้จ่ายโครงการ (รายเดือน) -->
+            <div class="col-12 col-md-12 col-lg-12 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <div id="column-project-status" style="min-height: 500px;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../js/navbar.js"></script>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+
+    <script src="../js/highcharts.js"></script>
+    <script src="../js/exporting.js"></script>
+    <script src="../js/accessibility.js"></script>
+    <script src="../js/chart.js"></script>
+    <script src="column-project-status.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'Sarabun-Regular';  /* ตั้งชื่อฟอนต์ */
+    src: url('../fonts/Sarabun-Regular.ttf') format('truetype'); /* กำหนด path ของฟอนต์ */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sarabun-Medium';  /* ตั้งชื่อฟอนต์ */
+    src: url('../fonts/Sarabun-Medium.ttf') format('truetype'); /* กำหนด path ของฟอนต์ */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sarabun-Light';  /* ตั้งชื่อฟอนต์ */
+    src: url('../fonts/Sarabun-Light.ttf') format('truetype'); /* กำหนด path ของฟอนต์ */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DBHeavent';  /* ตั้งชื่อฟอนต์ */
+    src: url('../fonts/DB\ Heavent\ v3.2.1.ttf') format('truetype'); /* กำหนด path ของฟอนต์ */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Sarabun-light', sans-serif;
+    font-size:16px;
+}
+
+
+section {
+    font-family: 'Sarabun-light', sans-serif;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-link{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* กำหนด CSS สำหรับหัวข้อหลักหน้ารายงาน*/
+.head-title{
+    font-family: 'Sarabun-regular', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+/* กำหนด CSS สำหรับหัวข้อย่อยในหน้ารายงาน*/
+.title-section{
+    font-family: 'Sarabun-light', sans-serif;
+    font-size: 26px;
+}
+
+/* กำหนด CSS สำหรับ table */
+table tr{
+    font-family: 'Sarabun-Light', sans-serif;
+    font-size: 16px;
+}
+table td{
+    font-family: 'Sarabun-Light', sans-serif;
+    font-size: 14px;
+}
+.table-th-text-center{
+    text-align: center;
+}
+.table-th-text-end{
+    text-align: end;
+}
+
+.table-td-text-end{
+    text-align: end;
+}
+.table-td-text-center{
+    text-align: center;
+}
+
+.head-table {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: #590F23; /* สีพื้นหลัง */
+}
+
+/* กำหนดตัวหนังสือสำหรับ card ทั้งหมด*/
+.font-title{
+    font-family: 'Sarabun-regular', sans-serif;
+    font-weight: bold;
+}
+.font-value , .font-percent{
+    font-family: 'DBHeavent', sans-serif;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+/* กำหนดตัวหนังสือสำหรับ card ขนาด md-3 */
+.card-md-3-icon{
+    width: 40px;
+    height: 40px;
+    filter: brightness(0) invert(1);
+}
+
+.card-md-3-title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-md-3-value{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.card-md-3-percent{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+/* กำหนดตัวหนังสือสำหรับ card ขนาด md-4 */
+.card-md-4-icon{
+    width: 40px;
+    height: 40px;
+    filter: brightness(0) invert(1);
+}
+
+.card-md-4-title{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.card-md-4-value{
+    font-weight: bold;
+    font-size: 46px;
+}
+
+.card-md-4-percent{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* กำหนด CSS สำหรับ card ขนาด md-6 */
+.card-md-6-icon{
+    width: 40px;
+    height: 40px;
+    filter: brightness(0) invert(1);
+}
+
+.card-md-6-title{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.card-md-6-value{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.card-md-6-percent{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+
+/* กำหนดตัวหนังสือสำหรับ card แบบที่ 2 ที่ ขนาด md-3 สำหรับแสดงผลแผนภูมิการจัดจ้าง*/
+.card-type2-md-3-icon{
+    width: 80px;
+    height: 80px;
+    filter: brightness(0) invert(1);
+}
+
+.card-type2-md-3-title{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.card-type2-md-3-value{
+    font-weight: bold;
+    font-size: 46px;
+}
+
+/* กำหนดตัวหนังสือสำหรับ card แบบที่ 2 ที่ ขนาด md-2 สำหรับแสดงผลแผนภูมิ*/
+.card-type2-md-2-icon{
+    width: 50px;
+    height: 50px;
+    filter: brightness(0) invert(1);
+}
+
+.card-type2-md-2-title{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card-type2-md-2-value{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+/* กำหนดตัวหนังสือสำหรับ card แบบที่ 2 ที่ ขนาด md-auto สำหรับแสดงผลแบบ card 5 อัน*/
+.card-type2-md-auto-icon{
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.card-type2-md-auto-title{
+    font-size: 16px;
+}
+
+.card-type2-md-auto-value{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .card-type2-md-3-icon {
+        width: 50px; /* ปรับขนาดไอคอนตามต้องการ */
+        height: 50px;
+    }
+    .card-type2-md-3-title {
+        text-align: center;
+        font-size: 24px;
+    }
+    .card-type2-md-3-value{
+        text-align: center;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 1;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .card-type2-md-2-icon {
+        width: 50px; /* ปรับขนาดไอคอนตามต้องการ */
+        height: 50px;
+    }
+    .card-type2-md-2-title {
+        text-align: center;
+        font-size: 24px;
+    }
+    .card-type2-md-2-value{
+        text-align: center;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 1;
+    }
+}
+
+
+/* กำหนดความยาว chart ตามประเภทของ chart*/
+
+.pie{
+    min-height: 500px;
+}
+
+.column{
+    min-height: 600px;
+}
+
+.bar-sm{
+    min-height: 400px;
+}
+.bar-md{
+    min-height: 500px;
+}
+.bar-lg{
+    min-height: 600px;
+}
+
+.area{
+    min-height: 500px;
+}
+
