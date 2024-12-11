@@ -100,5 +100,85 @@ Highcharts.chart('pie-financial-status-1', {
             color: '#590F23', 
             y: 40000
         },]
-    }]
+    }],
+    responsive: {
+        rules: [{
+            condition: {
+                maxWidth: 768 // For iPad and similar devices
+            },
+            chartOptions: {
+                title: {
+                    style: {
+                        fontSize: '16px' // Smaller font size for title
+                    }
+                },
+                plotOptions: {
+                    series: {
+                        dataLabels: [{
+                            style: {
+                                fontSize: '0.9em' // Adjusted font size for data labels
+                            }
+                        }, {
+                            style: {
+                                fontSize: '0.9em' // Adjusted font size for percentage labels
+                            }
+                        }]
+                    },
+                    pie: {
+                        dataLabels: {
+                            style: {
+                                fontSize: '0.9em' // Adjusted font size for pie data labels
+                            },
+                            distance: 15 // Adjusted distance for iPad
+                        },
+                        size: '70%' // Adjusted size for iPad
+                    }
+                },
+                legend: {
+                    itemStyle: {
+                        fontSize: '14px' // Smaller font size for legend
+                    }
+                }
+            }
+        }, {
+            condition: {
+                maxWidth: 375 // For mobile devices
+            },
+            chartOptions: {
+                title: {
+                    style: {
+                        fontSize: '14px' // Even smaller font size for title
+                    }
+                },
+                plotOptions: {
+                    series: {
+                        dataLabels: [{
+                            style: {
+                                fontSize: '0.8em' // Adjusted font size for data labels
+                            }
+                        }, {
+                            style: {
+                                fontSize: '0.8em' // Adjusted font size for percentage labels
+                            }
+                        }]
+                    },
+                    pie: {
+                        dataLabels: {
+                            style: {
+                                fontSize: '0.8em' // Adjusted font size for mobile
+                            },
+                            distance: -15,
+                            format: '{point.percentage:.0f}%',
+                        },
+                        size: '80%' // Adjusted size for mobile
+                    }
+                },
+                legend: {
+                    itemStyle: {
+                        fontSize: '12px' // Even smaller font size for legend
+                    }
+                }
+            }
+        }]
+      }
 });
